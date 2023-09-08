@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 
 
@@ -11,7 +13,7 @@ export const Empty = ({
   return (
     <div className="h-full p-20 flex flex-col items-center justify-center">
       <div className="relative h-72 w-72">
-        <Image src="/logo.png" fill alt="Empty" />
+        <Image src="/acumen_aura2.png" fill alt="Empty" />
       </div>
       <p className="text-muted-foreground text-sm text-center">
         {label}
